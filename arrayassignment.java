@@ -54,10 +54,9 @@ public class arrayassignment{
         frame.add(deleteButton);
 
         addButton.addActionListener(e->{
-            String input= elementsField.getText();
+            String input = elementsField.getText();
             if(!input.isEmpty()){
-                String[] parts= input.split(",");
-                for(String p: parts){
+                for(String p: input.split("\\s*,\\s*")){
                     try{
                         arrayList.add(Integer.parseInt(p.trim()));
                     }catch(NumberFormatException ex){
