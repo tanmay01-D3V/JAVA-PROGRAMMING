@@ -9,10 +9,10 @@ class BankAccount {
         this.balance = balance;
     }
 
-    public String getaccountholder() {
+    public String getaccountholder() { 
         return accountholder;
     }
-
+    
     public double getbalance() {
         return balance;
     }
