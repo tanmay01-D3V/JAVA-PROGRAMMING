@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import javax.swing.*;
 
 
-public class arrayassignment{
+public class temp{
     public static void main(String[] args) {
         JFrame frame= new JFrame("Array Assignment");
 
