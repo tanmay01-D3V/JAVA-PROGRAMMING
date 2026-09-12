@@ -1,7 +1,7 @@
 import java.awt.Frame;
 import javax.swing.*;
 
-public class insertelement extends Frame{
+public class insertelement extends JFrame {
     private final JLabel arrayLabel = new JLabel("Enter Array:");
     private final JLabel addLabel = new JLabel("Add Element:");
     private final JLabel deleteLabel = new JLabel("Delete Element:");
