@@ -1,4 +1,3 @@
-package Assignment;
 import java.awt.event.*;
 import javax.swing.*;
 

@@ -1,4 +1,3 @@
-package Assignment;
 import javax.swing.*;
 
 class SearchAlgorithm {
